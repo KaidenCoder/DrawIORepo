@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2024-06-27T13:59:01.825Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="OkaUpFuE9HVxJHN76ndR" version="24.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-27T14:09:55.484Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="qwL5HihC71ULGf2k5QNC" version="24.6.3" type="github">
   <diagram name="Page-1" id="J4qOQOr2RQwbf2sHa0B2">
     <mxGraphModel dx="1083" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Rw_G1Ad9B57gTgOC47Qs-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rw_G1Ad9B57gTgOC47Qs-1" target="Rw_G1Ad9B57gTgOC47Qs-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rw_G1Ad9B57gTgOC47Qs-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rw_G1Ad9B57gTgOC47Qs-1" target="Rw_G1Ad9B57gTgOC47Qs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rw_G1Ad9B57gTgOC47Qs-1" value="&lt;a style=&quot;border-width: 0px; border-style: solid; border-color: hsl(var(--sd-border)); border-image: initial; box-sizing: border-box; overflow-wrap: break-word; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: #3b82f680; --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; text-decoration-line: none; text-decoration-thickness: inherit; text-decoration-style: inherit; text-decoration-color: inherit; touch-action: manipulation; outline: none; background-color: rgb(240, 240, 240); overflow: hidden; text-overflow: ellipsis; --tw-text-opacity: 1; font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-weight: 600; text-align: start;&quot; href=&quot;https://leetcode.com/problems/find-center-of-star-graph/&quot; class=&quot;no-underline hover:text-blue-s dark:hover:text-dark-blue-s truncate cursor-text whitespace-normal hover:!text-[inherit]&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1791. Find Center of Star Graph&lt;/font&gt;&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Rw_G1Ad9B57gTgOC47Qs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rw_G1Ad9B57gTgOC47Qs-2" target="Rw_G1Ad9B57gTgOC47Qs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rw_G1Ad9B57gTgOC47Qs-2" value="Undirected graph, nodes labelled from 1 to n," style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rw_G1Ad9B57gTgOC47Qs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rw_G1Ad9B57gTgOC47Qs-3" target="Rw_G1Ad9B57gTgOC47Qs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rw_G1Ad9B57gTgOC47Qs-3" value="Star graph is when evert node is connected to one common node" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rw_G1Ad9B57gTgOC47Qs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rw_G1Ad9B57gTgOC47Qs-4" target="Rw_G1Ad9B57gTgOC47Qs-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rw_G1Ad9B57gTgOC47Qs-4" value="Use a map and count the number of times a num appears. if num appearance is equal to the length of the array, return num" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="400" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Rw_G1Ad9B57gTgOC47Qs-5" value="Understanding-1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rw_G1Ad9B57gTgOC47Qs-10" value="Correct solution" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
