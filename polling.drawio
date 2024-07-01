@@ -1,14 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T17:46:32.899Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="tZC25t784kVy7B8VLrsl" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T17:49:15.728Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="gC__EJVg3i6vt6Umbs6s" version="24.6.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1120" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="wRVD7w-d0MGF5n6nKvQk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wRVD7w-d0MGF5n6nKvQk-0" target="wRVD7w-d0MGF5n6nKvQk-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wRVD7w-d0MGF5n6nKvQk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wRVD7w-d0MGF5n6nKvQk-0" target="wRVD7w-d0MGF5n6nKvQk-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wRVD7w-d0MGF5n6nKvQk-0" value="Design a polling website that can be added on websites to allow website viewers to vote on options" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="130" y="90" width="410" height="100" as="geometry" />
         </mxCell>
         <mxCell id="wRVD7w-d0MGF5n6nKvQk-1" value="Website usually on desktop and mobile screen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="250" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wRVD7w-d0MGF5n6nKvQk-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wRVD7w-d0MGF5n6nKvQk-3" target="wRVD7w-d0MGF5n6nKvQk-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wRVD7w-d0MGF5n6nKvQk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wRVD7w-d0MGF5n6nKvQk-3" target="wRVD7w-d0MGF5n6nKvQk-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wRVD7w-d0MGF5n6nKvQk-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wRVD7w-d0MGF5n6nKvQk-3" target="wRVD7w-d0MGF5n6nKvQk-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wRVD7w-d0MGF5n6nKvQk-3" value="Requirements" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="370" y="250" width="210" height="60" as="geometry" />
@@ -19,8 +34,20 @@
         <mxCell id="wRVD7w-d0MGF5n6nKvQk-5" value="Update the votes on UI after a user voted" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="820" y="220" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="wRVD7w-d0MGF5n6nKvQk-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wRVD7w-d0MGF5n6nKvQk-6" target="wRVD7w-d0MGF5n6nKvQk-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wRVD7w-d0MGF5n6nKvQk-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wRVD7w-d0MGF5n6nKvQk-6" target="wRVD7w-d0MGF5n6nKvQk-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wRVD7w-d0MGF5n6nKvQk-6" value="UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="640" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wRVD7w-d0MGF5n6nKvQk-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wRVD7w-d0MGF5n6nKvQk-7" target="wRVD7w-d0MGF5n6nKvQk-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wRVD7w-d0MGF5n6nKvQk-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wRVD7w-d0MGF5n6nKvQk-7" target="wRVD7w-d0MGF5n6nKvQk-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wRVD7w-d0MGF5n6nKvQk-7" value="Backend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="640" y="350" width="120" height="60" as="geometry" />
@@ -31,20 +58,32 @@
         <mxCell id="wRVD7w-d0MGF5n6nKvQk-9" value="Add or remove poll when a user votes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="820" y="410" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="wRVD7w-d0MGF5n6nKvQk-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wRVD7w-d0MGF5n6nKvQk-10" target="wRVD7w-d0MGF5n6nKvQk-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wRVD7w-d0MGF5n6nKvQk-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wRVD7w-d0MGF5n6nKvQk-10" target="wRVD7w-d0MGF5n6nKvQk-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wRVD7w-d0MGF5n6nKvQk-10" value="Start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="275" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="275" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wRVD7w-d0MGF5n6nKvQk-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wRVD7w-d0MGF5n6nKvQk-11" target="wRVD7w-d0MGF5n6nKvQk-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wRVD7w-d0MGF5n6nKvQk-11" value="Create a React Component to fetch API using axios, js fetch API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="570" width="250" height="60" as="geometry" />
+          <mxGeometry x="45" y="570" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRVD7w-d0MGF5n6nKvQk-12" value="Manage the fetched data in React Hooks and context API. Call the Context API in the UI component" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="72.5" y="670" width="175" height="70" as="geometry" />
+          <mxGeometry x="82.5" y="670" width="175" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wRVD7w-d0MGF5n6nKvQk-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wRVD7w-d0MGF5n6nKvQk-13" target="wRVD7w-d0MGF5n6nKvQk-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wRVD7w-d0MGF5n6nKvQk-13" value="API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="110" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRVD7w-d0MGF5n6nKvQk-14" value="UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="414" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="420" y="460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
