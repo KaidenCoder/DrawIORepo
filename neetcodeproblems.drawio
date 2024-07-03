@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T16:22:37.919Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.4" etag="Y8yuf0ffiTeCA43cenDR" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-03T16:28:42.270Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="P1-YF7yJ4SPx-9yKmefp" version="24.6.4" type="github">
   <diagram name="Page-1" id="MTJQl3-Kt01k6malA2KS">
-    <mxGraphModel>
+    <mxGraphModel dx="1129" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nN2-B50AMviymEDOJhhH-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nN2-B50AMviymEDOJhhH-1" target="nN2-B50AMviymEDOJhhH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-1" value="Two Integer Sum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nN2-B50AMviymEDOJhhH-2" target="nN2-B50AMviymEDOJhhH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-2" value="Given an array of integers and a target sum. return the indices i and j where array[i] + array[j] = sum and i != j" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nN2-B50AMviymEDOJhhH-3" target="nN2-B50AMviymEDOJhhH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-3" value="&lt;div&gt;Input:&amp;nbsp;&lt;/div&gt;&lt;div&gt;nums = [3,4,5,6], target = 7&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output: [0,1]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="400" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nN2-B50AMviymEDOJhhH-4" target="nN2-B50AMviymEDOJhhH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nN2-B50AMviymEDOJhhH-4" target="nN2-B50AMviymEDOJhhH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-4" value="Use map to track indexes and num where num == arr[i]. Check if target - arr[i] value exists in map where i index and map index values are different. If it exists, return i and map index in ascending order" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="560" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-5" value="Time complexity: O(N) as we loop the whole array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="730" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-6" value="Space complexity: O(N) as we store the whole array in map" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="730" width="170" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
