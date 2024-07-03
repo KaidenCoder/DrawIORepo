@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T16:55:10.413Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="670m-_hL0xonwf8uno8S" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-03T17:13:11.246Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="OD7GnQ5BvYlKbChaRwEc" version="24.6.4" type="github">
   <diagram name="Page-1" id="MTJQl3-Kt01k6malA2KS">
     <mxGraphModel dx="1129" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,6 +75,21 @@
         </mxCell>
         <mxCell id="nN2-B50AMviymEDOJhhH-21" value="Return the map values in list form" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="750" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-25" value="Top K Elements in List" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="130" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-26" value="Given an integer array and an integer k, return the k top most frequent elements" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1765" y="260" width="420" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-27" value="use Map to track the count of nums. convert map key and values to list and sort the list by values in descending order. Take the first k keys and return it as integer array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1765" y="440" width="420" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-28" value="Time Complexity: O(N*LogN) where N is the length of the array and logN is the sorting time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="850" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-29" value="Space Complexity: O(N) + O(N) = 2O(N) = O(N) where O(N) is the space of the map and O(N) is the result list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="850" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
