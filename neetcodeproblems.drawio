@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T16:33:50.893Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="aHrgLqeI8ir6gvgwj4vo" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-03T16:55:10.413Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="670m-_hL0xonwf8uno8S" version="24.6.4" type="github">
   <diagram name="Page-1" id="MTJQl3-Kt01k6malA2KS">
     <mxGraphModel dx="1129" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,8 +55,26 @@
         <mxCell id="nN2-B50AMviymEDOJhhH-14" value="An anagram is a string that contains the same characters as another string" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1110" y="142.5" width="290" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nN2-B50AMviymEDOJhhH-15" target="nN2-B50AMviymEDOJhhH-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nN2-B50AMviymEDOJhhH-15" value="&lt;div&gt;Input: strs = [&quot;act&quot;,&quot;pots&quot;,&quot;tops&quot;,&quot;cat&quot;,&quot;stop&quot;,&quot;hat&quot;]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output: [[&quot;hat&quot;],[&quot;act&quot;, &quot;cat&quot;],[&quot;stop&quot;, &quot;pots&quot;, &quot;tops&quot;]]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="410" width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nN2-B50AMviymEDOJhhH-19" target="nN2-B50AMviymEDOJhhH-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-19" value="Use map to store the sorted word and value in list in original form" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="555" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nN2-B50AMviymEDOJhhH-20" target="nN2-B50AMviymEDOJhhH-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-20" value="Check if the new sorted word exists in the map. If exists, store it in the value list. If not, create a new key value" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="650" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nN2-B50AMviymEDOJhhH-21" value="Return the map values in list form" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="750" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
