@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2024-07-05T17:27:05.924Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.4" etag="9zv-NMGXcRsERay5c5kH" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-05T17:32:29.863Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="z8x2Pu5uP7Seowwe4Wor" version="24.6.4" type="github">
   <diagram name="Page-1" id="Hs2qWFtuzMYOtbWRKsiM">
-    <mxGraphModel>
+    <mxGraphModel dx="1184" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OfRcIhpBQnVM0cP5FdPd-1" value="Travel Booking Front End System Design" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="110" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfRcIhpBQnVM0cP5FdPd-2" value="Requirements" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfRcIhpBQnVM0cP5FdPd-3" value="Core features" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfRcIhpBQnVM0cP5FdPd-4" value="Search and Browse accomodations" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfRcIhpBQnVM0cP5FdPd-5" value="Accomodation details such as price location, photos and amenities" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfRcIhpBQnVM0cP5FdPd-6" value="Make reservation for accomodations" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfRcIhpBQnVM0cP5FdPd-7" value="Demographics" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfRcIhpBQnVM0cP5FdPd-8" value="Wide age range from US, Asia, Europe etc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfRcIhpBQnVM0cP5FdPd-9" value="Non Functional Requirements" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfRcIhpBQnVM0cP5FdPd-10" value="Responsive and page load under 2 secs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfRcIhpBQnVM0cP5FdPd-11" value="User sign in" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OfRcIhpBQnVM0cP5FdPd-12" value="User has to be signed in to book accomodations" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
