@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T09:58:06.697Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="nMBOVXCYje7nntqfpIgy" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-12T10:00:19.501Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="D0mLkR0axoZtkVZuFZzL" version="24.6.4" type="github">
   <diagram name="Page-1" id="Yt8nRuSeN1MBQB41MqpO">
     <mxGraphModel dx="1194" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -138,6 +138,18 @@
         </mxCell>
         <mxCell id="sQagsXNtBHyBRIGIXRh2-24" value="For me" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="700" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0zMp9AifSCuBAD5S9LqY-1" value="Psalms 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0zMp9AifSCuBAD5S9LqY-2" value="1. Blessed is the man who walked not in the counsel of the ungodly nor stand in the way of sinners nor sit in the seat of scoffers but whose delight is in the law of the Lord and on his law he meditates day and night" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1240" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0zMp9AifSCuBAD5S9LqY-3" value="2. He is like a tree planted by streams of water that yields its fruit in its season whose leaf does not wither" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1430" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0zMp9AifSCuBAD5S9LqY-4" value="3. In all that he does he prospers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1590" width="330" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
