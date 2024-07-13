@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T10:00:27.024Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="o2QvDFMoR9sD8lWDQbPk" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-13T17:05:22.925Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="aFFhPbA8OXrFKC1aBWeA" version="24.6.5" type="github">
   <diagram name="Page-1" id="Yt8nRuSeN1MBQB41MqpO">
     <mxGraphModel dx="1194" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -139,26 +139,59 @@
         <mxCell id="sQagsXNtBHyBRIGIXRh2-24" value="For me" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="700" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0zMp9AifSCuBAD5S9LqY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0zMp9AifSCuBAD5S9LqY-1" target="0zMp9AifSCuBAD5S9LqY-2">
+        <mxCell id="0zMp9AifSCuBAD5S9LqY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0zMp9AifSCuBAD5S9LqY-1" target="0zMp9AifSCuBAD5S9LqY-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0zMp9AifSCuBAD5S9LqY-1" value="Psalms 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0zMp9AifSCuBAD5S9LqY-1" value="Psalms 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="1240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0zMp9AifSCuBAD5S9LqY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0zMp9AifSCuBAD5S9LqY-2" target="0zMp9AifSCuBAD5S9LqY-3">
+        <mxCell id="0zMp9AifSCuBAD5S9LqY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0zMp9AifSCuBAD5S9LqY-2" target="0zMp9AifSCuBAD5S9LqY-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0zMp9AifSCuBAD5S9LqY-2" value="1. Blessed is the man who walked not in the counsel of the ungodly nor stand in the way of sinners nor sit in the seat of scoffers but whose delight is in the law of the Lord and on his law he meditates day and night" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0zMp9AifSCuBAD5S9LqY-2" value="1. Blessed is the man who walked not in the counsel of the ungodly nor stand in the way of sinners nor sit in the seat of scoffers but whose delight is in the law of the Lord and on his law he meditates day and night" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="1240" width="330" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="0zMp9AifSCuBAD5S9LqY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0zMp9AifSCuBAD5S9LqY-3" target="0zMp9AifSCuBAD5S9LqY-4">
+        <mxCell id="0zMp9AifSCuBAD5S9LqY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0zMp9AifSCuBAD5S9LqY-3" target="0zMp9AifSCuBAD5S9LqY-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0zMp9AifSCuBAD5S9LqY-3" value="2. He is like a tree planted by streams of water that yields its fruit in its season whose leaf does not wither" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0zMp9AifSCuBAD5S9LqY-3" value="2. He is like a tree planted by streams of water that yields its fruit in its season whose leaf does not wither" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="1430" width="330" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="0zMp9AifSCuBAD5S9LqY-4" value="3. In all that he does he prospers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0zMp9AifSCuBAD5S9LqY-4" value="3. In all that he does he prospers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="1590" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Rtc9xolQifaJStnuledt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rtc9xolQifaJStnuledt-1" target="Rtc9xolQifaJStnuledt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rtc9xolQifaJStnuledt-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rtc9xolQifaJStnuledt-1" target="Rtc9xolQifaJStnuledt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rtc9xolQifaJStnuledt-1" value="Proverbs 24" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rtc9xolQifaJStnuledt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rtc9xolQifaJStnuledt-2" target="Rtc9xolQifaJStnuledt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rtc9xolQifaJStnuledt-2" value="1. Be not envious of evil men nor desire to be with them" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rtc9xolQifaJStnuledt-3" value="2. For their hearts devise violence and their lips talk of trouble" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rtc9xolQifaJStnuledt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rtc9xolQifaJStnuledt-4" target="Rtc9xolQifaJStnuledt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rtc9xolQifaJStnuledt-4" value="3. By wisdom a house is built and by understanding, it is estbalished" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="985" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Rtc9xolQifaJStnuledt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rtc9xolQifaJStnuledt-5" target="Rtc9xolQifaJStnuledt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rtc9xolQifaJStnuledt-5" value="4. By knowledge the rooms are filled with all precious and pleasant riches" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="982.5" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Rtc9xolQifaJStnuledt-6" value="5. A wise man is full of strength and a man of knowledge enhances his might" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="987.5" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
