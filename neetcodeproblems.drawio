@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-13T17:05:50.150Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="xQ-KWzUVTTydtTFqy4Yh" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-13T17:07:08.511Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="RwOhE32S2cicxolOkTQy" version="24.6.5" type="github">
   <diagram name="Page-1" id="MTJQl3-Kt01k6malA2KS">
     <mxGraphModel dx="2021" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -136,46 +136,88 @@
         <mxCell id="1y-f06pbk2HALnvQV5Nx-12" value="Space Complexity: O(N) as we loop through the entire array" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2810" y="535" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-1" value="Products of Array Discluding Self" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-1" value="Products of Array Discluding Self" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="115" y="970" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQZrs2Orp9ZpsfdFoQ2q-2" target="SQZrs2Orp9ZpsfdFoQ2q-3">
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SQZrs2Orp9ZpsfdFoQ2q-2" target="SQZrs2Orp9ZpsfdFoQ2q-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-2" value="Given an integer array, return the array output where output[i] is the product of the array discluding itself" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-2" value="Given an integer array, return the array output where output[i] is the product of the array discluding itself" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="115" y="1100" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQZrs2Orp9ZpsfdFoQ2q-3" target="SQZrs2Orp9ZpsfdFoQ2q-4">
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SQZrs2Orp9ZpsfdFoQ2q-3" target="SQZrs2Orp9ZpsfdFoQ2q-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-3" value="&lt;div&gt;Input: nums = [-1,0,1,2,3]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output: [0,-6,0,0,0]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-3" value="&lt;div&gt;Input: nums = [-1,0,1,2,3]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output: [0,-6,0,0,0]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="115" y="1220" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SQZrs2Orp9ZpsfdFoQ2q-4" target="SQZrs2Orp9ZpsfdFoQ2q-5">
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SQZrs2Orp9ZpsfdFoQ2q-4" target="SQZrs2Orp9ZpsfdFoQ2q-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQZrs2Orp9ZpsfdFoQ2q-4" target="SQZrs2Orp9ZpsfdFoQ2q-7">
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SQZrs2Orp9ZpsfdFoQ2q-4" target="SQZrs2Orp9ZpsfdFoQ2q-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQZrs2Orp9ZpsfdFoQ2q-4" target="SQZrs2Orp9ZpsfdFoQ2q-6">
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SQZrs2Orp9ZpsfdFoQ2q-4" target="SQZrs2Orp9ZpsfdFoQ2q-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-4" value="Count the total number of zeroes in the array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-4" value="Count the total number of zeroes in the array" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="115" y="1340" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-5" value="If zeroCount == 0, find the product of the array. Then assign array[i] = product/array[i]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-5" value="If zeroCount == 0, find the product of the array. Then assign array[i] = product/array[i]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-160" y="1470" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SQZrs2Orp9ZpsfdFoQ2q-6" target="SQZrs2Orp9ZpsfdFoQ2q-8">
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SQZrs2Orp9ZpsfdFoQ2q-6" target="SQZrs2Orp9ZpsfdFoQ2q-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-6" value="If zeroCount == 1, find the product of the array except 0. Then for array[i] == 0, array[i] = product" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-6" value="If zeroCount == 1, find the product of the array except 0. Then for array[i] == 0, array[i] = product" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="115" y="1470" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-7" value="If zeroCount &amp;gt; 1, Then assign every array[i] = 0,&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-7" value="If zeroCount &amp;gt; 1, Then assign every array[i] = 0,&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="1470" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-8" value="Return the array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-8" value="Return the array" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="115" y="1590" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saUwehoPbYmH1re-DA8q-1" value="Products of Array Discluding Self" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="970" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saUwehoPbYmH1re-DA8q-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="saUwehoPbYmH1re-DA8q-3" target="saUwehoPbYmH1re-DA8q-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saUwehoPbYmH1re-DA8q-3" value="Given an integer array, return the array output where output[i] is the product of the array discluding itself" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1100" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saUwehoPbYmH1re-DA8q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="saUwehoPbYmH1re-DA8q-5" target="saUwehoPbYmH1re-DA8q-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saUwehoPbYmH1re-DA8q-5" value="&lt;div&gt;Input: nums = [-1,0,1,2,3]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output: [0,-6,0,0,0]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1220" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saUwehoPbYmH1re-DA8q-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saUwehoPbYmH1re-DA8q-9" target="saUwehoPbYmH1re-DA8q-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saUwehoPbYmH1re-DA8q-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="saUwehoPbYmH1re-DA8q-9" target="saUwehoPbYmH1re-DA8q-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saUwehoPbYmH1re-DA8q-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="saUwehoPbYmH1re-DA8q-9" target="saUwehoPbYmH1re-DA8q-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saUwehoPbYmH1re-DA8q-9" value="Count the total number of zeroes in the array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1340" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saUwehoPbYmH1re-DA8q-10" value="If zeroCount == 0, find the product of the array. Then assign array[i] = product/array[i]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="1470" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saUwehoPbYmH1re-DA8q-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="saUwehoPbYmH1re-DA8q-12" target="saUwehoPbYmH1re-DA8q-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saUwehoPbYmH1re-DA8q-12" value="If zeroCount == 1, find the product of the array except 0. Then for array[i] == 0, array[i] = product" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1470" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saUwehoPbYmH1re-DA8q-13" value="If zeroCount &amp;gt; 1, Then assign every array[i] = 0,&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1470" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saUwehoPbYmH1re-DA8q-14" value="Return the array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="115" y="1590" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
