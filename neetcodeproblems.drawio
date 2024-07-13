@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T17:17:43.798Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="pl_Co-5_fU_wqqQXUToX" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-13T17:01:25.910Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ad6x80nCHjbP0Pl-ycP_" version="24.6.5" type="github">
   <diagram name="Page-1" id="MTJQl3-Kt01k6malA2KS">
-    <mxGraphModel dx="1184" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2021" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,22 +76,22 @@
         <mxCell id="nN2-B50AMviymEDOJhhH-21" value="Return the map values in list form" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="750" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1y-f06pbk2HALnvQV5Nx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nN2-B50AMviymEDOJhhH-25" target="nN2-B50AMviymEDOJhhH-26">
+        <mxCell id="1y-f06pbk2HALnvQV5Nx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nN2-B50AMviymEDOJhhH-25" target="nN2-B50AMviymEDOJhhH-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nN2-B50AMviymEDOJhhH-25" value="Top K Elements in List" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1840" y="130" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1y-f06pbk2HALnvQV5Nx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nN2-B50AMviymEDOJhhH-26" target="nN2-B50AMviymEDOJhhH-27">
+        <mxCell id="1y-f06pbk2HALnvQV5Nx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nN2-B50AMviymEDOJhhH-26" target="nN2-B50AMviymEDOJhhH-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nN2-B50AMviymEDOJhhH-26" value="Given an integer array and an integer k, return the k top most frequent elements" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1765" y="260" width="420" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="1y-f06pbk2HALnvQV5Nx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nN2-B50AMviymEDOJhhH-27" target="1y-f06pbk2HALnvQV5Nx-1">
+        <mxCell id="1y-f06pbk2HALnvQV5Nx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="nN2-B50AMviymEDOJhhH-27" target="1y-f06pbk2HALnvQV5Nx-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1y-f06pbk2HALnvQV5Nx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nN2-B50AMviymEDOJhhH-27" target="1y-f06pbk2HALnvQV5Nx-4">
+        <mxCell id="1y-f06pbk2HALnvQV5Nx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nN2-B50AMviymEDOJhhH-27" target="1y-f06pbk2HALnvQV5Nx-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nN2-B50AMviymEDOJhhH-27" value="use Map to track the count of nums. convert map key and values to list and sort the list by values in descending order. Take the first k keys and return it as integer array" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -103,38 +103,80 @@
         <mxCell id="nN2-B50AMviymEDOJhhH-29" value="Space Complexity: O(N) + O(N) = 2O(N) = O(N) where O(N) is the space of the map and O(N) is the result list" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="990" y="850" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1y-f06pbk2HALnvQV5Nx-1" value="Time Complexity: O(N) as we loop through the entire array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1y-f06pbk2HALnvQV5Nx-1" value="Time Complexity: O(N) as we loop through the entire array" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1654" y="630" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="1y-f06pbk2HALnvQV5Nx-4" value="Space Complexity: O(N) + O(N) = 2O(N) = O(N). We store the nums in map O(N) and return it as integer array O(N)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1y-f06pbk2HALnvQV5Nx-4" value="Space Complexity: O(N) + O(N) = 2O(N) = O(N). We store the nums in map O(N) and return it as integer array O(N)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2050" y="630" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="1y-f06pbk2HALnvQV5Nx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1y-f06pbk2HALnvQV5Nx-7" target="1y-f06pbk2HALnvQV5Nx-9">
+        <mxCell id="1y-f06pbk2HALnvQV5Nx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1y-f06pbk2HALnvQV5Nx-7" target="1y-f06pbk2HALnvQV5Nx-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1y-f06pbk2HALnvQV5Nx-7" value="String Encode and Decode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1y-f06pbk2HALnvQV5Nx-7" value="String Encode and Decode" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2580" y="130" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1y-f06pbk2HALnvQV5Nx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1y-f06pbk2HALnvQV5Nx-9" target="1y-f06pbk2HALnvQV5Nx-10">
+        <mxCell id="1y-f06pbk2HALnvQV5Nx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1y-f06pbk2HALnvQV5Nx-9" target="1y-f06pbk2HALnvQV5Nx-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1y-f06pbk2HALnvQV5Nx-9" value="Design an algorithm to encode a list of strings to a single string. The encoded string is then decoded back to the original list of strings." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1y-f06pbk2HALnvQV5Nx-9" value="Design an algorithm to encode a list of strings to a single string. The encoded string is then decoded back to the original list of strings." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2510" y="280" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1y-f06pbk2HALnvQV5Nx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1y-f06pbk2HALnvQV5Nx-10" target="1y-f06pbk2HALnvQV5Nx-11">
+        <mxCell id="1y-f06pbk2HALnvQV5Nx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1y-f06pbk2HALnvQV5Nx-10" target="1y-f06pbk2HALnvQV5Nx-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1y-f06pbk2HALnvQV5Nx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1y-f06pbk2HALnvQV5Nx-10" target="1y-f06pbk2HALnvQV5Nx-12">
+        <mxCell id="1y-f06pbk2HALnvQV5Nx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1y-f06pbk2HALnvQV5Nx-10" target="1y-f06pbk2HALnvQV5Nx-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1y-f06pbk2HALnvQV5Nx-10" value="Use global map to store key and value to decode and encode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1y-f06pbk2HALnvQV5Nx-10" value="Use global map to store key and value to decode and encode" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2510" y="420" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1y-f06pbk2HALnvQV5Nx-11" value="Time Complexity: O(N) as we loop through the entire array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1y-f06pbk2HALnvQV5Nx-11" value="Time Complexity: O(N) as we loop through the entire array" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2410" y="535" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="1y-f06pbk2HALnvQV5Nx-12" value="Space Complexity: O(N) as we loop through the entire array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1y-f06pbk2HALnvQV5Nx-12" value="Space Complexity: O(N) as we loop through the entire array" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2810" y="535" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-1" value="Products of Array Discluding Self" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="970" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQZrs2Orp9ZpsfdFoQ2q-2" target="SQZrs2Orp9ZpsfdFoQ2q-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-2" value="Given an integer array, return the array output where output[i] is the product of the array discluding itself" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1100" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQZrs2Orp9ZpsfdFoQ2q-3" target="SQZrs2Orp9ZpsfdFoQ2q-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-3" value="&lt;div&gt;Input: nums = [-1,0,1,2,3]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output: [0,-6,0,0,0]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1220" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SQZrs2Orp9ZpsfdFoQ2q-4" target="SQZrs2Orp9ZpsfdFoQ2q-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQZrs2Orp9ZpsfdFoQ2q-4" target="SQZrs2Orp9ZpsfdFoQ2q-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQZrs2Orp9ZpsfdFoQ2q-4" target="SQZrs2Orp9ZpsfdFoQ2q-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-4" value="Count the total number of zeroes in the array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1340" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-5" value="If zeroCount == 0, find the product of the array. Then assign array[i] = product/array[i]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="1470" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SQZrs2Orp9ZpsfdFoQ2q-6" target="SQZrs2Orp9ZpsfdFoQ2q-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-6" value="If zeroCount == 1, find the product of the array except 0. Then for array[i] == 0, array[i] = product" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1470" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-7" value="If zeroCount &amp;gt; 1, Then assign every array[i] = 0,&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1470" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQZrs2Orp9ZpsfdFoQ2q-8" value="Return the array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1590" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
