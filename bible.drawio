@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-13T17:07:33.917Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="H8zSBjokcMJ0gTp67QcU" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T17:34:08.876Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="SUG4gellBA6UY3DovF3Q" version="24.6.5" type="github">
   <diagram name="Page-1" id="Yt8nRuSeN1MBQB41MqpO">
-    <mxGraphModel dx="1194" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1096" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -193,38 +193,89 @@
         <mxCell id="Rtc9xolQifaJStnuledt-6" value="5. A wise man is full of strength and a man of knowledge enhances his might" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1460" y="987.5" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="s3U2sGRBht4TqHa3pAtl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s3U2sGRBht4TqHa3pAtl-3" target="s3U2sGRBht4TqHa3pAtl-5">
+        <mxCell id="s3U2sGRBht4TqHa3pAtl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="s3U2sGRBht4TqHa3pAtl-3" target="s3U2sGRBht4TqHa3pAtl-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s3U2sGRBht4TqHa3pAtl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s3U2sGRBht4TqHa3pAtl-3" target="s3U2sGRBht4TqHa3pAtl-8">
+        <mxCell id="s3U2sGRBht4TqHa3pAtl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="s3U2sGRBht4TqHa3pAtl-3" target="s3U2sGRBht4TqHa3pAtl-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s3U2sGRBht4TqHa3pAtl-3" value="Proverbs 24" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="s3U2sGRBht4TqHa3pAtl-3" value="Proverbs 24" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="810" y="930" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="s3U2sGRBht4TqHa3pAtl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s3U2sGRBht4TqHa3pAtl-5" target="s3U2sGRBht4TqHa3pAtl-6">
+        <mxCell id="s3U2sGRBht4TqHa3pAtl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s3U2sGRBht4TqHa3pAtl-5" target="s3U2sGRBht4TqHa3pAtl-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s3U2sGRBht4TqHa3pAtl-5" value="1. Be not envious of evil men nor desire to be with them" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="s3U2sGRBht4TqHa3pAtl-5" value="1. Be not envious of evil men nor desire to be with them" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1030" y="870" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="s3U2sGRBht4TqHa3pAtl-6" value="2. For their hearts devise violence and their lips talk of trouble" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="s3U2sGRBht4TqHa3pAtl-6" value="2. For their hearts devise violence and their lips talk of trouble" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1190" y="870" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="s3U2sGRBht4TqHa3pAtl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s3U2sGRBht4TqHa3pAtl-8" target="s3U2sGRBht4TqHa3pAtl-10">
+        <mxCell id="s3U2sGRBht4TqHa3pAtl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s3U2sGRBht4TqHa3pAtl-8" target="s3U2sGRBht4TqHa3pAtl-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s3U2sGRBht4TqHa3pAtl-8" value="3. By wisdom a house is built and by understanding, it is estbalished" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="s3U2sGRBht4TqHa3pAtl-8" value="3. By wisdom a house is built and by understanding, it is estbalished" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1000" y="985" width="160" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="s3U2sGRBht4TqHa3pAtl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s3U2sGRBht4TqHa3pAtl-10" target="s3U2sGRBht4TqHa3pAtl-11">
+        <mxCell id="s3U2sGRBht4TqHa3pAtl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="s3U2sGRBht4TqHa3pAtl-10" target="s3U2sGRBht4TqHa3pAtl-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s3U2sGRBht4TqHa3pAtl-10" value="4. By knowledge the rooms are filled with all precious and pleasant riches" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="s3U2sGRBht4TqHa3pAtl-10" value="4. By knowledge the rooms are filled with all precious and pleasant riches" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1210" y="982.5" width="200" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="s3U2sGRBht4TqHa3pAtl-11" value="5. A wise man is full of strength and a man of knowledge enhances his might" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="s3U2sGRBht4TqHa3pAtl-11" value="5. A wise man is full of strength and a man of knowledge enhances his might" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1460" y="987.5" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0FVXe4cKeMs9D_usokHY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0FVXe4cKeMs9D_usokHY-1" target="0FVXe4cKeMs9D_usokHY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FVXe4cKeMs9D_usokHY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0FVXe4cKeMs9D_usokHY-1" target="0FVXe4cKeMs9D_usokHY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FVXe4cKeMs9D_usokHY-1" value="Psalms 101" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0FVXe4cKeMs9D_usokHY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0FVXe4cKeMs9D_usokHY-2" target="0FVXe4cKeMs9D_usokHY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FVXe4cKeMs9D_usokHY-2" value="1. I will sing of steadfast love and justice to you O Lord, I will make music" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1850" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0FVXe4cKeMs9D_usokHY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0FVXe4cKeMs9D_usokHY-3" target="0FVXe4cKeMs9D_usokHY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FVXe4cKeMs9D_usokHY-3" value="2. I will ponder the way that is blameless Oh when will you come to me? I will walk with integrity of heart within my house" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="2010" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0FVXe4cKeMs9D_usokHY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0FVXe4cKeMs9D_usokHY-4" target="0FVXe4cKeMs9D_usokHY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FVXe4cKeMs9D_usokHY-4" value="3. I will not set before my eyes anything that is worthless. I hate the work of those who fall away it shall not cling to me" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="2150" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0FVXe4cKeMs9D_usokHY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0FVXe4cKeMs9D_usokHY-5" target="0FVXe4cKeMs9D_usokHY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FVXe4cKeMs9D_usokHY-5" value="4. A perverse heart shall be far from me. I will know nothing of evil" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="2300" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0FVXe4cKeMs9D_usokHY-6" value="5. Whoever slanders his neighbor secretly, I will destroy. Whoever has a haughty look and an arrogant heart, I will not endure" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="2450" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0FVXe4cKeMs9D_usokHY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0FVXe4cKeMs9D_usokHY-7" target="0FVXe4cKeMs9D_usokHY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FVXe4cKeMs9D_usokHY-7" value="6. I will look with favour on the faithful on the land that they may dwell with, he who walks in the way that is blameless shall minister to me&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1980" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0FVXe4cKeMs9D_usokHY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0FVXe4cKeMs9D_usokHY-8" target="0FVXe4cKeMs9D_usokHY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FVXe4cKeMs9D_usokHY-8" value="7. No one who practices deceit shall dwell in my house, no one who utter lies shall continue before my eyes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2140" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0FVXe4cKeMs9D_usokHY-9" value="8. Morning by morning I shall destroy all the wicked of the land, cutting off all the evildoers from the city of the Lord" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2290" width="360" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
