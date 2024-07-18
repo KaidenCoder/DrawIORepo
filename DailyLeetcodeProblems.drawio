@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T17:57:36.672Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="wOrqPqwNMaPRMxeuXApv" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-18T17:45:45.890Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="mbq2q1K3uJhlVAlHNHSD" version="24.7.1" type="github">
   <diagram name="Page-1" id="J4qOQOr2RQwbf2sHa0B2">
-    <mxGraphModel dx="1194" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1083" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,41 +37,86 @@
         <mxCell id="Rw_G1Ad9B57gTgOC47Qs-10" value="Correct solution" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dE6NYx2mJIJI9bipWjh_-1" value="1717. Maximum Score From Removing Substrings" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dE6NYx2mJIJI9bipWjh_-1" value="1717. Maximum Score From Removing Substrings" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="160" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dE6NYx2mJIJI9bipWjh_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dE6NYx2mJIJI9bipWjh_-2" target="dE6NYx2mJIJI9bipWjh_-5">
+        <mxCell id="dE6NYx2mJIJI9bipWjh_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dE6NYx2mJIJI9bipWjh_-2" target="dE6NYx2mJIJI9bipWjh_-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dE6NYx2mJIJI9bipWjh_-2" value="Given two integers x and y and a string, Remove ab and ba to gain x and y points from the given string" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dE6NYx2mJIJI9bipWjh_-2" value="Given two integers x and y and a string, Remove ab and ba to gain x and y points from the given string" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="270" width="350" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dE6NYx2mJIJI9bipWjh_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dE6NYx2mJIJI9bipWjh_-3" target="dE6NYx2mJIJI9bipWjh_-6">
+        <mxCell id="dE6NYx2mJIJI9bipWjh_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dE6NYx2mJIJI9bipWjh_-3" target="dE6NYx2mJIJI9bipWjh_-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dE6NYx2mJIJI9bipWjh_-3" value="if ba value is greater, start from right eliminating ba values and then removing ab and add the values of ba and ab" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dE6NYx2mJIJI9bipWjh_-3" value="if ba value is greater, start from right eliminating ba values and then removing ab and add the values of ba and ab" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="470" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dE6NYx2mJIJI9bipWjh_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dE6NYx2mJIJI9bipWjh_-4" target="dE6NYx2mJIJI9bipWjh_-6">
+        <mxCell id="dE6NYx2mJIJI9bipWjh_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dE6NYx2mJIJI9bipWjh_-4" target="dE6NYx2mJIJI9bipWjh_-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dE6NYx2mJIJI9bipWjh_-4" value="if ab value is greater, start from left eliminating ab values and add values and then removing ba and add the values of ab and ba" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dE6NYx2mJIJI9bipWjh_-4" value="if ab value is greater, start from left eliminating ab values and add values and then removing ba and add the values of ab and ba" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="470" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dE6NYx2mJIJI9bipWjh_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dE6NYx2mJIJI9bipWjh_-5" target="dE6NYx2mJIJI9bipWjh_-3">
+        <mxCell id="dE6NYx2mJIJI9bipWjh_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dE6NYx2mJIJI9bipWjh_-5" target="dE6NYx2mJIJI9bipWjh_-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dE6NYx2mJIJI9bipWjh_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dE6NYx2mJIJI9bipWjh_-5" target="dE6NYx2mJIJI9bipWjh_-4">
+        <mxCell id="dE6NYx2mJIJI9bipWjh_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dE6NYx2mJIJI9bipWjh_-5" target="dE6NYx2mJIJI9bipWjh_-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dE6NYx2mJIJI9bipWjh_-5" value="Theory 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dE6NYx2mJIJI9bipWjh_-5" value="Theory 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dE6NYx2mJIJI9bipWjh_-6" value="Add the result as the sum of the values" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dE6NYx2mJIJI9bipWjh_-6" value="Add the result as the sum of the values" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="585" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dE6NYx2mJIJI9bipWjh_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.481;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dE6NYx2mJIJI9bipWjh_-1" target="dE6NYx2mJIJI9bipWjh_-2">
+        <mxCell id="dE6NYx2mJIJI9bipWjh_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.481;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="dE6NYx2mJIJI9bipWjh_-1" target="dE6NYx2mJIJI9bipWjh_-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhGI8EGtmJvG7Pv_OD6U-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WhGI8EGtmJvG7Pv_OD6U-1" target="WhGI8EGtmJvG7Pv_OD6U-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhGI8EGtmJvG7Pv_OD6U-1" value="1530. Number of good leaf nodes pairs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="140" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WhGI8EGtmJvG7Pv_OD6U-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WhGI8EGtmJvG7Pv_OD6U-2" target="WhGI8EGtmJvG7Pv_OD6U-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhGI8EGtmJvG7Pv_OD6U-2" value="Find the pair leaf nodes whose distance between them is less than or equal to Qdistance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="290" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WhGI8EGtmJvG7Pv_OD6U-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WhGI8EGtmJvG7Pv_OD6U-4" target="WhGI8EGtmJvG7Pv_OD6U-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhGI8EGtmJvG7Pv_OD6U-4" value="1. Loop through the tree and crate a parent and children list array where parent is the index and array[index] is the children" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="450" width="219" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WhGI8EGtmJvG7Pv_OD6U-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WhGI8EGtmJvG7Pv_OD6U-5" target="WhGI8EGtmJvG7Pv_OD6U-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhGI8EGtmJvG7Pv_OD6U-5" value="2. If a parent has two child nodes, it&#39;s distance is always 2. So if the given Qdistance &amp;gt;= distance, it is a good pair and we can take one of them in the leaf node and if this leaf has other good pairs, we can always take count of +2 as there is children pair" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="455" width="369" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WhGI8EGtmJvG7Pv_OD6U-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WhGI8EGtmJvG7Pv_OD6U-6" target="WhGI8EGtmJvG7Pv_OD6U-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhGI8EGtmJvG7Pv_OD6U-6" value="3. After collecting all the leaf nodes in a List, loop through the list in a a single loop array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1375.5" y="600" width="369" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WhGI8EGtmJvG7Pv_OD6U-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WhGI8EGtmJvG7Pv_OD6U-7" target="WhGI8EGtmJvG7Pv_OD6U-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhGI8EGtmJvG7Pv_OD6U-7" value="4. For every index, maintain a array loop for all the elements visited and maintain of the distance from the leaf node. When the distance is greater then Qdistance, return else keep looping we get a lead node with the condition distance &amp;lt;= Qdistance. When we find another leaf node, increase the count by 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1375.5" y="760" width="369" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WhGI8EGtmJvG7Pv_OD6U-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WhGI8EGtmJvG7Pv_OD6U-8" target="WhGI8EGtmJvG7Pv_OD6U-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WhGI8EGtmJvG7Pv_OD6U-8" value="5. We perform number 4 operation in recursive function" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1375.5" y="900" width="369" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WhGI8EGtmJvG7Pv_OD6U-9" value="6. Return the count" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1375.5" y="1050" width="369" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
