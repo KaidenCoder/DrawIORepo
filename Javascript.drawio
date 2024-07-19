@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T17:44:34.631Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="3kLJSy3Fn9Ycor9AC7pa" version="24.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-19T17:46:24.314Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="PWApg4bfaSpwSWX3iyjP" version="24.7.2" type="github">
   <diagram name="Page-1" id="ZCtTJZgCB-62pgYaLrDs">
-    <mxGraphModel dx="1149" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1149" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,6 +78,18 @@
         </mxCell>
         <mxCell id="sI7mcvTQRgKkUIXhdQUk-26" value="Pending" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="980" y="95" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-27" target="sI7mcvTQRgKkUIXhdQUk-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-27" value="This function is stored the output data in a local variable not in Promise. In Promise, it is saying if it is successful or not" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="-5" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-30" target="sI7mcvTQRgKkUIXhdQUk-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-30" value="If It Asynchronous function fails, it goes to catch statement" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-90" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
