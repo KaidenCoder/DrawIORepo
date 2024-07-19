@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T18:01:01.025Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="R0m05KweVLHE7IVq7_mA" version="24.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-19T18:22:23.603Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="e5qogJqcE8KuKsB3-Nwv" version="24.7.2" type="github">
   <diagram name="Page-1" id="ZCtTJZgCB-62pgYaLrDs">
     <mxGraphModel dx="1976" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,8 +103,50 @@
         <mxCell id="sI7mcvTQRgKkUIXhdQUk-33" value="A Promise is a return object to which you attach callbacks, instead of passing callbacks to a function" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="320" width="200" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-35" target="sI7mcvTQRgKkUIXhdQUk-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sI7mcvTQRgKkUIXhdQUk-35" value="Why Promises?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-140" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-37" value="In the old days, calling several asynchronous functions would lead to callback hell which is calling several differenct functions within the functions" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="390" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-39" value="Promises help reduce the multiple inner looping of calling function inside a function by using chaining method. It also helps catch error function and debug easily as the promises stops once an asynchrous operation gets an error and it is easily visible since the async functions are performed in sequential manner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="560" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-40" value="Chaining" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-41" value="Chaining is a technique of executing multiple asynchronous operations in sequence where each subsequent operation starts when the previous operations succeeds" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-195" y="800" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-42" target="sI7mcvTQRgKkUIXhdQUk-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-42" target="sI7mcvTQRgKkUIXhdQUk-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-42" target="sI7mcvTQRgKkUIXhdQUk-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-42" value="How promises work?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-195" y="940" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-43" value="1.&amp;nbsp;Each .then() method returns a new promise, different from the original one." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1079" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-44" target="sI7mcvTQRgKkUIXhdQUk-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-44" value="2.&amp;nbsp;The result of one promise is passed as an input to the next promise in the chain." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-195" y="1079" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-45" value="3.&amp;nbsp;This allows you to execute asynchronous operations one after another, in a specific order." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1079" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-49" value="&lt;div&gt;Example&lt;br&gt;&lt;br&gt;somePromise&lt;/div&gt;&lt;div&gt;&amp;nbsp; .then(result1 =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // do something with result1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return someOtherAsyncOperation();&lt;/div&gt;&lt;div&gt;&amp;nbsp; })&lt;/div&gt;&lt;div&gt;&amp;nbsp; .then(result2 =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // do something with result2( result2 is output of above function which is input here)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return yetAnotherAsyncOperation();&lt;/div&gt;&lt;div&gt;&amp;nbsp; })&lt;/div&gt;&lt;div&gt;&amp;nbsp; .then(result3 =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // do something with result3&lt;/div&gt;&lt;div&gt;&amp;nbsp; })&lt;/div&gt;&lt;div&gt;&amp;nbsp; .catch(error =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // handle any errors that occurred in the chain&lt;/div&gt;&lt;div&gt;&amp;nbsp; });&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-232.5" y="1210" width="305" height="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
