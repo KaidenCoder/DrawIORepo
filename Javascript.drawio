@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T18:22:39.719Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="32rtW7kTvp35Xd7EtRib" version="24.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-19T18:22:50.139Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ruTCzd7nzpYNlMcbMv_g" version="24.7.2" type="github">
   <diagram name="Page-1" id="ZCtTJZgCB-62pgYaLrDs">
     <mxGraphModel dx="1976" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-1" target="sI7mcvTQRgKkUIXhdQUk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sI7mcvTQRgKkUIXhdQUk-1" value="Promises - Javascript from &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise&quot;&gt;MDN&lt;/a&gt;, Using Promises &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises&quot;&gt;link&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="90" width="220" height="60" as="geometry" />
+          <mxGeometry x="130" y="90" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sI7mcvTQRgKkUIXhdQUk-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-2" target="sI7mcvTQRgKkUIXhdQUk-3">
           <mxGeometry relative="1" as="geometry" />
