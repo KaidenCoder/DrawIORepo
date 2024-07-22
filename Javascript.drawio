@@ -1,167 +1,239 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T18:24:58.825Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="QAkJlIWuyxp1pA7T7FE2" version="24.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-22T17:06:18.300Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="mdShbF66Slt1CXprYQv9" version="24.7.1" type="github">
   <diagram name="Page-1" id="ZCtTJZgCB-62pgYaLrDs">
     <mxGraphModel dx="1976" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-1" target="sI7mcvTQRgKkUIXhdQUk-2">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-1" target="sI7mcvTQRgKkUIXhdQUk-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-1" value="Promises - Javascript from &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise&quot;&gt;MDN&lt;/a&gt;, Using Promises &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises&quot;&gt;link&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-1" value="Promises - Javascript from &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise&quot;&gt;MDN&lt;/a&gt;, Using Promises &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises&quot;&gt;link&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="90" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-2" target="sI7mcvTQRgKkUIXhdQUk-3">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-2" target="sI7mcvTQRgKkUIXhdQUk-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-2" target="sI7mcvTQRgKkUIXhdQUk-33">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-2" target="sI7mcvTQRgKkUIXhdQUk-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-2" target="sI7mcvTQRgKkUIXhdQUk-35">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-2" target="sI7mcvTQRgKkUIXhdQUk-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-2" value="Promises represent an eventual completion(or failure) of an asynchronous operation and its resulting value" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-2" value="Promises represent an eventual completion(or failure) of an asynchronous operation and its resulting value" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="180" width="240" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-3" target="sI7mcvTQRgKkUIXhdQUk-5">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-3" target="sI7mcvTQRgKkUIXhdQUk-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-3" target="sI7mcvTQRgKkUIXhdQUk-4">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-3" target="sI7mcvTQRgKkUIXhdQUk-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-3" value="Promise" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-3" value="Promise" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-4" target="sI7mcvTQRgKkUIXhdQUk-6">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-4" target="sI7mcvTQRgKkUIXhdQUk-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-4" target="sI7mcvTQRgKkUIXhdQUk-8">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-4" target="sI7mcvTQRgKkUIXhdQUk-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-4" value=".then(OnFullFilment)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-4" value=".then(OnFullFilment)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-5" target="sI7mcvTQRgKkUIXhdQUk-7">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-5" target="sI7mcvTQRgKkUIXhdQUk-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-5" target="sI7mcvTQRgKkUIXhdQUk-8">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-5" target="sI7mcvTQRgKkUIXhdQUk-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-5" value=".then(OnRejection)&lt;br&gt;&lt;br&gt;catch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-5" value=".then(OnRejection)&lt;br&gt;&lt;br&gt;catch" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-6" target="sI7mcvTQRgKkUIXhdQUk-4">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-6" target="sI7mcvTQRgKkUIXhdQUk-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-6" value="Asynchronous action" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-6" value="Asynchronous action" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-7" target="sI7mcvTQRgKkUIXhdQUk-5">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-7" target="sI7mcvTQRgKkUIXhdQUk-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-7" value="Error Handling" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-7" value="Error Handling" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-8" target="sI7mcvTQRgKkUIXhdQUk-9">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-8" target="sI7mcvTQRgKkUIXhdQUk-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-8" value="Promise" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-8" value="Promise" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="940" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-9" value=".then" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-9" value=".then" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1130" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-20" value="Fulfill" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-20" value="Fulfill" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="610" y="80" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-21" value="Reject" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-21" value="Reject" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="610" y="230" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-22" value="Pending" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-22" value="Pending" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="490" y="90" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-23" value="Settled" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-23" value="Settled" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="700" y="40" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-24" value="Settled" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-24" value="Settled" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="700" y="280" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-25" value="return" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-25" value="return" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="820" y="150" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-26" value="Pending" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-26" value="Pending" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="980" y="95" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-27" target="sI7mcvTQRgKkUIXhdQUk-6">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-27" target="sI7mcvTQRgKkUIXhdQUk-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-27" value="This function stores the output data within the function and can be be passed to next async function and the output becomes the input of this next async function" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-27" value="This function stores the output data within the function and can be be passed to next async function and the output becomes the input of this next async function" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1020" y="-5" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-30" target="sI7mcvTQRgKkUIXhdQUk-6">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-30" target="sI7mcvTQRgKkUIXhdQUk-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-30" value="If the Asynchronous function fails, it goes to catch statement" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-30" value="If the Asynchronous function fails, it goes to catch statement" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="-90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-33" value="A Promise is a return object to which you attach callbacks, instead of passing callbacks to a function" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-33" value="A Promise is a return object to which you attach callbacks, instead of passing callbacks to a function" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="320" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-35" target="sI7mcvTQRgKkUIXhdQUk-37">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-35" target="sI7mcvTQRgKkUIXhdQUk-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-35" value="Why Promises?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-35" value="Why Promises?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-140" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-37" target="sI7mcvTQRgKkUIXhdQUk-39">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-37" target="sI7mcvTQRgKkUIXhdQUk-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-37" value="In the old days, calling several asynchronous functions would lead to callback hell which is calling several differenct functions within the functions" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-37" value="In the old days, calling several asynchronous functions would lead to callback hell which is calling several differenct functions within the functions" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-180" y="390" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-39" target="sI7mcvTQRgKkUIXhdQUk-40">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-39" target="sI7mcvTQRgKkUIXhdQUk-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-39" value="Promises help reduce the multiple inner looping of calling function inside a function by using chaining method. It also helps catch error function and debug easily as the promises stops once an asynchrous operation gets an error and it is easily visible since the async functions are performed in sequential manner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-39" value="Promises help reduce the multiple inner looping of calling function inside a function by using chaining method. It also helps catch error function and debug easily as the promises stops once an asynchrous operation gets an error and it is easily visible since the async functions are performed in sequential manner" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-260" y="560" width="360" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-40" target="sI7mcvTQRgKkUIXhdQUk-41">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-40" target="sI7mcvTQRgKkUIXhdQUk-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-40" value="Chaining" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-40" target="6V_Kw25gb9ozs9smhxZg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-40" value="Chaining" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-140" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-41" target="sI7mcvTQRgKkUIXhdQUk-42">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-41" target="sI7mcvTQRgKkUIXhdQUk-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-41" value="Chaining is a technique of executing multiple asynchronous operations in sequence where each subsequent operation starts when the previous operations succeeds" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-41" value="Chaining is a technique of executing multiple asynchronous operations in sequence where each subsequent operation starts when the previous operations succeeds" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-195" y="800" width="230" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-42" target="sI7mcvTQRgKkUIXhdQUk-43">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-42" target="sI7mcvTQRgKkUIXhdQUk-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-42" target="sI7mcvTQRgKkUIXhdQUk-44">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-42" target="sI7mcvTQRgKkUIXhdQUk-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-42" target="sI7mcvTQRgKkUIXhdQUk-45">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-42" target="sI7mcvTQRgKkUIXhdQUk-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-42" value="How promises work?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-42" value="How promises work?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-195" y="940" width="230" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-43" value="1.&amp;nbsp;Each .then() method returns a new promise, different from the original one." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-43" value="1.&amp;nbsp;Each .then() method returns a new promise, different from the original one." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-450" y="1079" width="230" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sI7mcvTQRgKkUIXhdQUk-44" target="sI7mcvTQRgKkUIXhdQUk-49">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sI7mcvTQRgKkUIXhdQUk-44" target="sI7mcvTQRgKkUIXhdQUk-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-44" value="2.&amp;nbsp;The result of one promise is passed as an input to the next promise in the chain." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-44" value="2.&amp;nbsp;The result of one promise is passed as an input to the next promise in the chain." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-195" y="1079" width="230" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-45" value="3.&amp;nbsp;This allows you to execute asynchronous operations one after another, in a specific order." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-45" value="3.&amp;nbsp;This allows you to execute asynchronous operations one after another, in a specific order." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="1079" width="230" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="sI7mcvTQRgKkUIXhdQUk-49" value="&lt;div&gt;Example&lt;br&gt;&lt;br&gt;somePromise&lt;/div&gt;&lt;div&gt;&amp;nbsp; .then(result1 =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // do something with result1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return someOtherAsyncOperation();&lt;/div&gt;&lt;div&gt;&amp;nbsp; })&lt;/div&gt;&lt;div&gt;&amp;nbsp; .then(result2 =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // do something with result2( result2 is output of above function which is input here)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return yetAnotherAsyncOperation();&lt;/div&gt;&lt;div&gt;&amp;nbsp; })&lt;/div&gt;&lt;div&gt;&amp;nbsp; .then(result3 =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // do something with result3&lt;/div&gt;&lt;div&gt;&amp;nbsp; })&lt;/div&gt;&lt;div&gt;&amp;nbsp; .catch(error =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // handle any errors that occurred in the chain&lt;/div&gt;&lt;div&gt;&amp;nbsp; });&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sI7mcvTQRgKkUIXhdQUk-49" value="&lt;div&gt;Example&lt;br&gt;&lt;br&gt;somePromise&lt;/div&gt;&lt;div&gt;&amp;nbsp; .then(result1 =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // do something with result1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return someOtherAsyncOperation();&lt;/div&gt;&lt;div&gt;&amp;nbsp; })&lt;/div&gt;&lt;div&gt;&amp;nbsp; .then(result2 =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // do something with result2( result2 is output of above function which is input here)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return yetAnotherAsyncOperation();&lt;/div&gt;&lt;div&gt;&amp;nbsp; })&lt;/div&gt;&lt;div&gt;&amp;nbsp; .then(result3 =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // do something with result3&lt;/div&gt;&lt;div&gt;&amp;nbsp; })&lt;/div&gt;&lt;div&gt;&amp;nbsp; .catch(error =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // handle any errors that occurred in the chain&lt;/div&gt;&lt;div&gt;&amp;nbsp; });&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-232.5" y="1210" width="305" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6V_Kw25gb9ozs9smhxZg-1" target="6V_Kw25gb9ozs9smhxZg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6V_Kw25gb9ozs9smhxZg-1" target="6V_Kw25gb9ozs9smhxZg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-1" value="Avoid floating promise" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6V_Kw25gb9ozs9smhxZg-3" target="6V_Kw25gb9ozs9smhxZg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-3" value="if the promise from the last handler is not returned, the next then handler will be called early, and any value it reads may be incomplete." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="920" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-4" value="&lt;div&gt;const listOfIngredients = [];&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;doSomething()&lt;/div&gt;&lt;div&gt;&amp;nbsp; .then((url) =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // Missing `return` keyword in front of fetch(url).&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; fetch(url)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; .then((res) =&amp;gt; res.json())&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; .then((data) =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; listOfIngredients.push(data);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; });&lt;/div&gt;&lt;div&gt;&amp;nbsp; })&lt;/div&gt;&lt;div&gt;&amp;nbsp; .then(() =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; console.log(listOfIngredients);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // listOfIngredients will always be [], because the fetch request hasn&#39;t completed yet.&lt;/div&gt;&lt;div&gt;&amp;nbsp; });&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1030" width="420" height="281" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6V_Kw25gb9ozs9smhxZg-6" target="6V_Kw25gb9ozs9smhxZg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-6" value="Reason" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6V_Kw25gb9ozs9smhxZg-9" target="6V_Kw25gb9ozs9smhxZg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6V_Kw25gb9ozs9smhxZg-9" target="6V_Kw25gb9ozs9smhxZg-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6V_Kw25gb9ozs9smhxZg-9" target="6V_Kw25gb9ozs9smhxZg-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-9" value="Resolution" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6V_Kw25gb9ozs9smhxZg-10" target="6V_Kw25gb9ozs9smhxZg-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-10" value="Therefore, as a rule of thumb, whenever your operation encounters a promise, return it and defer its handling to the next then handler." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="815" width="250" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-13" value="&lt;div&gt;const listOfIngredients = [];&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;doSomething()&lt;/div&gt;&lt;div&gt;&amp;nbsp; .then((url) =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // `&lt;b&gt;return&lt;/b&gt;` keyword now included in front of fetch call.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return fetch(url)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; .then((res) =&amp;gt; res.json())&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; .then((data) =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; listOfIngredients.push(data);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; });&lt;/div&gt;&lt;div&gt;&amp;nbsp; })&lt;/div&gt;&lt;div&gt;&amp;nbsp; .then(() =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; console.log(listOfIngredients);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // listOfIngredients will now contain data from fetch call.&lt;/div&gt;&lt;div&gt;&amp;nbsp; });&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="990" width="430" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6V_Kw25gb9ozs9smhxZg-15" target="6V_Kw25gb9ozs9smhxZg-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-15" value="Even better, you can flatten the nested chain into a single chain, which is simpler and makes error handling easier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="680" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-16" value="&lt;div&gt;doSomething()&lt;/div&gt;&lt;div&gt;&amp;nbsp; .then((url) =&amp;gt; fetch(url))&lt;/div&gt;&lt;div&gt;&amp;nbsp; .then((res) =&amp;gt; res.json())&lt;/div&gt;&lt;div&gt;&amp;nbsp; .then((data) =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; listOfIngredients.push(data);&lt;/div&gt;&lt;div&gt;&amp;nbsp; })&lt;/div&gt;&lt;div&gt;&amp;nbsp; .then(() =&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; console.log(listOfIngredients);&lt;/div&gt;&lt;div&gt;&amp;nbsp; });&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="490" width="240" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6V_Kw25gb9ozs9smhxZg-19" target="6V_Kw25gb9ozs9smhxZg-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-19" value="Async/Await" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6V_Kw25gb9ozs9smhxZg-20" target="6V_Kw25gb9ozs9smhxZg-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-20" value="&amp;nbsp;async/await can help you write code that&#39;s more intuitive and resembles synchronous code. Below is the same example using async/await:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="540" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_Kw25gb9ozs9smhxZg-21" value="&lt;div&gt;async function logIngredients() {&lt;/div&gt;&lt;div&gt;&amp;nbsp; const url = await doSomething();&lt;/div&gt;&lt;div&gt;&amp;nbsp; const res = await fetch(url);&lt;/div&gt;&lt;div&gt;&amp;nbsp; const data = await res.json();&lt;/div&gt;&lt;div&gt;&amp;nbsp; listOfIngredients.push(data);&lt;/div&gt;&lt;div&gt;&amp;nbsp; console.log(listOfIngredients);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="360" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
