@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-23T18:21:19.695Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="_5e3fPTPIq-MWHV_Y10J" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-23T18:34:20.784Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="2QQ1dNhOepjMzcvaWnxa" version="24.7.1" type="github">
   <diagram name="Page-1" id="Yt8nRuSeN1MBQB41MqpO">
     <mxGraphModel dx="962" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -780,7 +780,49 @@
           <mxGeometry x="414" y="5320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pvo5C8HGuHBYKKUda4uK-30" value="Time Pressure: Twice in a month" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="787" y="5140" width="120" height="60" as="geometry" />
+          <mxGeometry x="700" y="5140" width="207" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pvo5C8HGuHBYKKUda4uK-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pvo5C8HGuHBYKKUda4uK-31" target="pvo5C8HGuHBYKKUda4uK-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pvo5C8HGuHBYKKUda4uK-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pvo5C8HGuHBYKKUda4uK-31" target="pvo5C8HGuHBYKKUda4uK-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pvo5C8HGuHBYKKUda4uK-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pvo5C8HGuHBYKKUda4uK-31" target="pvo5C8HGuHBYKKUda4uK-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pvo5C8HGuHBYKKUda4uK-31" value="Team work" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="5560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pvo5C8HGuHBYKKUda4uK-32" value="avg 8-12 hrs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="5560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pvo5C8HGuHBYKKUda4uK-34" value="6hrs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="5420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pvo5C8HGuHBYKKUda4uK-35" value="14 hrs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="5720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pvo5C8HGuHBYKKUda4uK-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pvo5C8HGuHBYKKUda4uK-39" target="pvo5C8HGuHBYKKUda4uK-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pvo5C8HGuHBYKKUda4uK-39" value="Any Team adapt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="521.43" y="5870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pvo5C8HGuHBYKKUda4uK-40" value="Control" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="743.5" y="5870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pvo5C8HGuHBYKKUda4uK-42" value="SkillsSet - FrontEnd -&amp;gt; team -&amp;gt; Work and attitude. 6hrs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="5790" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pvo5C8HGuHBYKKUda4uK-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pvo5C8HGuHBYKKUda4uK-43" target="pvo5C8HGuHBYKKUda4uK-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pvo5C8HGuHBYKKUda4uK-43" value="Skills -&amp;gt; Data points(completion) -&amp;gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="206" y="5930" width="195" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pvo5C8HGuHBYKKUda4uK-44" value="Principal Engineer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="206" y="6110" width="195" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
