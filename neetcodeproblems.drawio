@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-14T14:24:34.199Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="x_ixv-J3Kx51BH-KWM_P" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.5">
   <diagram name="Page-1" id="MTJQl3-Kt01k6malA2KS">
-    <mxGraphModel dx="2021" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1851" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -220,11 +220,50 @@
         <mxCell id="saUwehoPbYmH1re-DA8q-14" value="Return the array" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="115" y="1590" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PKbOvXh1hC4f7ejgGBlp-1" value="You are given a 9x9 Sudoku board. Return true if the Sudoku is valid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PKbOvXh1hC4f7ejgGBlp-1" value="You are given a 9x9 Sudoku board. Return true if the Sudoku is valid" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="1020" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PKbOvXh1hC4f7ejgGBlp-2" value="You are given a 9x9 Sudoku board. Return true if the Sudoku is valid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PKbOvXh1hC4f7ejgGBlp-2" value="You are given a 9x9 Sudoku board. Return true if the Sudoku is valid" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="1160" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NIsI1Q-7MkNIX9lUCh3J-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NIsI1Q-7MkNIX9lUCh3J-1" target="NIsI1Q-7MkNIX9lUCh3J-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NIsI1Q-7MkNIX9lUCh3J-1" value="&lt;h1 style=&quot;box-sizing: inherit; margin: 0px; padding: 0px; font-size: 19px; font-weight: 400; font-family: helvetica, Arial, sans-serif; color: var(--text-color); text-align: start; background-color: rgb(38, 38, 38);&quot;&gt;Validate Parentheses&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="1754" width="215" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="NIsI1Q-7MkNIX9lUCh3J-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NIsI1Q-7MkNIX9lUCh3J-2" target="NIsI1Q-7MkNIX9lUCh3J-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NIsI1Q-7MkNIX9lUCh3J-2" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot; color=&quot;#e1e1e1&quot;&gt;&lt;span style=&quot;font-size: 17px; background-color: rgb(38, 38, 38);&quot;&gt;You are given a string s consisting of the following characters: &#39;(&#39;, &#39;)&#39;, &#39;{&#39;, &#39;}&#39;, &#39;[&#39; and &#39;]&#39;.&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-62.5" y="1840" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NIsI1Q-7MkNIX9lUCh3J-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NIsI1Q-7MkNIX9lUCh3J-4" target="NIsI1Q-7MkNIX9lUCh3J-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NIsI1Q-7MkNIX9lUCh3J-4" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;p style=&quot;box-sizing: inherit; margin: 24px 0px; padding: 0px; font-family: Arial, sans-serif; color: var(--text-color); line-height: 1.75; font-size: 17px; background-color: rgb(38, 38, 38);&quot;&gt;The input string&amp;nbsp;&lt;code style=&quot;box-sizing: inherit; -webkit-font-smoothing: auto; background-color: var(--code-inline-background-color); color: var(--code-inline-color); font-size: 14.5px; padding: 0.125em; word-break: normal; border-radius: 0.3em; hyphens: none; line-height: 1.5; overflow-wrap: normal; tab-size: 4; word-spacing: normal; border-width: 1px; border-style: solid; border-color: var(--code-inline-border-color); border-image: initial;&quot; class=&quot;hljs language-ebnf&quot;&gt;s&lt;/code&gt;&amp;nbsp;is valid if and only if:&lt;/p&gt;&lt;ol style=&quot;box-sizing: inherit; margin: 24px 0px 24px 1.5em; padding: 0px; font-family: Arial, sans-serif; font-size: 17px; color: rgb(74, 74, 74); background-color: rgb(38, 38, 38);&quot;&gt;&lt;li style=&quot;box-sizing: inherit; margin: 0px 0px 8px 15px; padding: 0px; color: var(--text-color); line-height: 1.75; list-style-position: inside;&quot;&gt;Every open bracket is closed by the same type of close bracket.&lt;/li&gt;&lt;li style=&quot;box-sizing: inherit; margin: 0px 0px 8px 15px; padding: 0px; color: var(--text-color); line-height: 1.75; list-style-position: inside;&quot;&gt;Open brackets are closed in the correct order.&lt;/li&gt;&lt;li style=&quot;box-sizing: inherit; margin: 0px 0px 8px 15px; padding: 0px; color: var(--text-color); line-height: 1.75; list-style-position: inside;&quot;&gt;Every close bracket has a corresponding open bracket of the same type.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-118.75" y="2020" width="442.5" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="NIsI1Q-7MkNIX9lUCh3J-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NIsI1Q-7MkNIX9lUCh3J-6" target="NIsI1Q-7MkNIX9lUCh3J-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NIsI1Q-7MkNIX9lUCh3J-6" value="&lt;div&gt;Input: s = &quot;([{}])&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output: true&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="2450" width="205" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NIsI1Q-7MkNIX9lUCh3J-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NIsI1Q-7MkNIX9lUCh3J-8" target="NIsI1Q-7MkNIX9lUCh3J-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NIsI1Q-7MkNIX9lUCh3J-8" value="Use Map to store key as close bracket and values as open bracket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="42.5" y="2670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NIsI1Q-7MkNIX9lUCh3J-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NIsI1Q-7MkNIX9lUCh3J-10" target="NIsI1Q-7MkNIX9lUCh3J-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NIsI1Q-7MkNIX9lUCh3J-10" value="Use Stack to pop out open bracket values that matches the close brackets from the map while loop the string array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="33.75" y="2780" width="137.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NIsI1Q-7MkNIX9lUCh3J-12" value="if stack size is zero, then return true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="43" y="2930" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
