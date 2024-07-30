@@ -1,9 +1,117 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Page-1" id="0YoQ7BNPho5sO-UluRg9">
-    <mxGraphModel>
+    <mxGraphModel dx="1897" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-1" value="Graph Concepts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="m7aj5oLY5AbvG_hLqnwf-2" target="m7aj5oLY5AbvG_hLqnwf-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m7aj5oLY5AbvG_hLqnwf-2" target="m7aj5oLY5AbvG_hLqnwf-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-2" value="1. Graph Representation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="m7aj5oLY5AbvG_hLqnwf-3" target="m7aj5oLY5AbvG_hLqnwf-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-3" value="2. Graph Traversal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="m7aj5oLY5AbvG_hLqnwf-4" target="m7aj5oLY5AbvG_hLqnwf-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m7aj5oLY5AbvG_hLqnwf-4" target="m7aj5oLY5AbvG_hLqnwf-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m7aj5oLY5AbvG_hLqnwf-4" target="m7aj5oLY5AbvG_hLqnwf-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-4" value="3. &lt;strong&gt;Shortest Path Algorithms&lt;/strong&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m7aj5oLY5AbvG_hLqnwf-5" target="m7aj5oLY5AbvG_hLqnwf-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m7aj5oLY5AbvG_hLqnwf-5" target="m7aj5oLY5AbvG_hLqnwf-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-5" value="4. &lt;strong&gt;Minimum Spanning Tree (MST)&lt;/strong&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m7aj5oLY5AbvG_hLqnwf-6" target="m7aj5oLY5AbvG_hLqnwf-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m7aj5oLY5AbvG_hLqnwf-6" target="m7aj5oLY5AbvG_hLqnwf-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-6" value="5. &lt;strong&gt;Graph Connectivity&lt;/strong&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-7" value="6. &lt;strong&gt;Topological Sorting&lt;/strong&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-8" value="7. &lt;strong&gt;Cycle Detection&lt;/strong&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-9" value="&lt;h3&gt;8. &lt;strong&gt;Graph Coloring&lt;/strong&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="420" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-10" value="&lt;h3&gt;9. &lt;strong&gt;Flow Networks and Max-Flow Algorithms&lt;/strong&gt;&lt;br&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="430" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-11" value="&lt;h3&gt;10. &lt;strong&gt;Bipartite Graphs&lt;/strong&gt;&lt;br&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="430" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-12" value="&lt;h3&gt;11. &lt;strong&gt;Eulerian and Hamiltonian Paths&lt;/strong&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="560" width="220" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-13" value="&lt;h3&gt;12. &lt;strong&gt;Graph Isomorphism&lt;/strong&gt;&lt;br&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="570" width="220" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-14" value="&lt;h3&gt;13. &lt;strong&gt;Miscellaneous Concepts&lt;/strong&gt;&lt;br&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="727" y="560" width="220" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-15" value="&lt;strong&gt;Adjacency Matrix&lt;/strong&gt;: A 2D array where each cell at (i, j) represents the presence (or weight) of an edge between vertices i and j." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="120" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-16" value="&lt;strong&gt;Adjacency List&lt;/strong&gt;: An array of lists where the index represents the node and the list at that index contains the neighbors of the node." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="320" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-19" value="&lt;strong&gt;Depth-First Search (DFS)&lt;/strong&gt;: Uses a stack (or recursion) to explore as far down a branch as possible before backtracking." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="-90" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-20" value="&lt;strong&gt;Breadth-First Search (BFS)&lt;/strong&gt;: Uses a queue to explore all neighbors of a node before moving on to their neighbors." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-190" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.539;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="m7aj5oLY5AbvG_hLqnwf-3" target="m7aj5oLY5AbvG_hLqnwf-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-23" value="&lt;strong&gt;Dijkstra&#39;s Algorithm&lt;/strong&gt;: Finds the shortest path from a source to all vertices in a weighted graph." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-330" width="273" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-24" value="&lt;strong&gt;Bellman-Ford Algorithm&lt;/strong&gt;: Handles graphs with negative weights and detects negative cycles." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="-330" width="273" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-25" value="&lt;em&gt;&lt;em&gt;A&lt;/em&gt; Algorithm&lt;/em&gt;*: A heuristic-based algorithm often used in pathfinding and graph traversal." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="-190" width="273" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-29" value="&lt;strong&gt;Kruskal&#39;s Algorithm&lt;/strong&gt;: Builds the MST by adding edges in increasing weight order, using a union-find structure." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="-50" width="369" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-30" value="&lt;strong&gt;Prim&#39;s Algorithm&lt;/strong&gt;: Builds the MST by starting from an arbitrary node and repeatedly adding the cheapest edge from the tree to a new vertex." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="80" width="369" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-33" value="&lt;strong&gt;Union-Find (Disjoint Set Union)&lt;/strong&gt;: A data structure to keep track of elements partitioned into disjoint sets, useful in Kruskal’s algorithm and detecting cycles." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="180" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-34" value="&lt;strong&gt;Tarjan&#39;s Algorithm&lt;/strong&gt;: Finds strongly connected components (SCCs) in a directed graph." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="290" width="350" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
