@@ -52,11 +52,20 @@
         <mxCell id="m7aj5oLY5AbvG_hLqnwf-6" value="5. &lt;strong&gt;Graph Connectivity&lt;/strong&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="240" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m7aj5oLY5AbvG_hLqnwf-7" target="m7aj5oLY5AbvG_hLqnwf-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="m7aj5oLY5AbvG_hLqnwf-7" value="6. &lt;strong&gt;Topological Sorting&lt;/strong&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="-110" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="m7aj5oLY5AbvG_hLqnwf-8" target="m7aj5oLY5AbvG_hLqnwf-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="m7aj5oLY5AbvG_hLqnwf-8" target="m7aj5oLY5AbvG_hLqnwf-40">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m7aj5oLY5AbvG_hLqnwf-8" value="7. &lt;strong&gt;Cycle Detection&lt;/strong&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m7aj5oLY5AbvG_hLqnwf-9" value="&lt;h3&gt;8. &lt;strong&gt;Graph Coloring&lt;/strong&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="420" width="160" height="60" as="geometry" />
@@ -68,10 +77,10 @@
           <mxGeometry x="850" y="430" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m7aj5oLY5AbvG_hLqnwf-12" value="&lt;h3&gt;11. &lt;strong&gt;Eulerian and Hamiltonian Paths&lt;/strong&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="560" width="220" height="85" as="geometry" />
+          <mxGeometry x="520" y="1030" width="220" height="85" as="geometry" />
         </mxCell>
         <mxCell id="m7aj5oLY5AbvG_hLqnwf-13" value="&lt;h3&gt;12. &lt;strong&gt;Graph Isomorphism&lt;/strong&gt;&lt;br&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="570" width="220" height="85" as="geometry" />
+          <mxGeometry x="840" y="860" width="220" height="85" as="geometry" />
         </mxCell>
         <mxCell id="m7aj5oLY5AbvG_hLqnwf-14" value="&lt;h3&gt;13. &lt;strong&gt;Miscellaneous Concepts&lt;/strong&gt;&lt;br&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="727" y="560" width="220" height="85" as="geometry" />
@@ -111,6 +120,15 @@
         </mxCell>
         <mxCell id="m7aj5oLY5AbvG_hLqnwf-34" value="&lt;strong&gt;Tarjan&#39;s Algorithm&lt;/strong&gt;: Finds strongly connected components (SCCs) in a directed graph." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1220" y="290" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-37" value="Sorting vertices in a directed acyclic graph (DAG) such that for every directed edge u -&amp;gt; v, vertex u comes before v in the ordering." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="600" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-39" value="&lt;strong&gt;Directed Graph&lt;/strong&gt;: Use DFS to detect back edges." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-40" value="&lt;strong&gt;Undirected Graph&lt;/strong&gt;: Use DFS or union-find to detect cycles." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
