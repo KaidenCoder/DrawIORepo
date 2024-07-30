@@ -235,7 +235,7 @@
           <mxGeometry x="650" y="170" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="m7aj5oLY5AbvG_hLqnwf-49" value="&lt;h3&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Check Bipartiteness: Use BFS or DFS to check if the graph can be colored with two colors.&lt;/span&gt;&lt;br&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="630" width="220" height="110" as="geometry" />
+          <mxGeometry x="640" y="630" width="220" height="110" as="geometry" />
         </mxCell>
         <mxCell id="m7aj5oLY5AbvG_hLqnwf-51" value="&lt;h3&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Eulerian Path/Circuit: A path/circuit that visits every edge exactly once.&lt;/span&gt;&lt;br&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-30" y="1110" width="220" height="85" as="geometry" />
