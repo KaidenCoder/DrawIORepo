@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Page-1" id="0YoQ7BNPho5sO-UluRg9">
-    <mxGraphModel dx="2254" dy="1917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2254" dy="3086" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -254,6 +254,27 @@
         </mxCell>
         <mxCell id="m7aj5oLY5AbvG_hLqnwf-59" value="&lt;h3&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Planarity Testing: Determine if a graph can be drawn on a plane without edges crossing.&lt;/span&gt;&lt;br&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1194.5" y="1000" width="220" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m7aj5oLY5AbvG_hLqnwf-77" target="m7aj5oLY5AbvG_hLqnwf-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-77" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Times; font-size: 16px; text-align: start; white-space: pre; background-color: oklch(0.25 0.003 196.966);&quot;&gt;import java.util.*;&lt;br/&gt;&lt;br/&gt;public class Dijkstra {&lt;br/&gt;&lt;br/&gt;    public static Map&amp;lt;String, Integer&amp;gt; dijkstra(Map&amp;lt;String, Map&amp;lt;String, Integer&amp;gt;&amp;gt; graph, String source) {&lt;br/&gt;        // Initialize distances with infinity&lt;br/&gt;        Map&amp;lt;String, Integer&amp;gt; dist = new HashMap&amp;lt;&amp;gt;();&lt;br/&gt;        for (String node : graph.keySet()) {&lt;br/&gt;            dist.put(node, Integer.MAX_VALUE);&lt;br/&gt;        }&lt;br/&gt;        dist.put(source, 0);&lt;br/&gt;&lt;br/&gt;        // Priority queue to select the node with the smallest distance&lt;br/&gt;        PriorityQueue&amp;lt;Node&amp;gt; priorityQueue = new PriorityQueue&amp;lt;&amp;gt;(Comparator.comparingInt(node -&amp;gt; node.distance));&lt;br/&gt;        priorityQueue.add(new Node(source, 0));&lt;br/&gt;&lt;br/&gt;        // Set to keep track of visited nodes&lt;br/&gt;        Set&amp;lt;String&amp;gt; visited = new HashSet&amp;lt;&amp;gt;();&lt;br/&gt;&lt;br/&gt;        while (!priorityQueue.isEmpty()) {&lt;br/&gt;            Node currentNode = priorityQueue.poll();&lt;br/&gt;            String current = currentNode.name;&lt;br/&gt;&lt;br/&gt;            // Skip if the node is already visited&lt;br/&gt;            if (visited.contains(current)) {&lt;br/&gt;                continue;&lt;br/&gt;            }&lt;br/&gt;&lt;br/&gt;            visited.add(current);&lt;br/&gt;&lt;br/&gt;            // Update distances to neighboring nodes&lt;br/&gt;            for (Map.Entry&amp;lt;String, Integer&amp;gt; neighborEntry : graph.get(current).entrySet()) {&lt;br/&gt;                String neighbor = neighborEntry.getKey();&lt;br/&gt;                int weight = neighborEntry.getValue();&lt;br/&gt;                int newDist = dist.get(current) + weight;&lt;br/&gt;&lt;br/&gt;                if (newDist &amp;lt; dist.get(neighbor)) {&lt;br/&gt;                    dist.put(neighbor, newDist);&lt;br/&gt;                    priorityQueue.add(new Node(neighbor, newDist));&lt;br/&gt;                }&lt;br/&gt;            }&lt;br/&gt;        }&lt;br/&gt;&lt;br/&gt;        return dist;&lt;br/&gt;    }&lt;br/&gt;&lt;br/&gt;    // Helper class to represent a node in the priority queue&lt;br/&gt;    static class Node {&lt;br/&gt;        String name;&lt;br/&gt;        int distance;&lt;br/&gt;&lt;br/&gt;        Node(String name, int distance) {&lt;br/&gt;            this.name = name;&lt;br/&gt;            this.distance = distance;&lt;br/&gt;        }&lt;br/&gt;    }&lt;br/&gt;&lt;br/&gt;    public static void main(String[] args) {&lt;br/&gt;        // Example graph represented as an adjacency list&lt;br/&gt;        Map&amp;lt;String, Map&amp;lt;String, Integer&amp;gt;&amp;gt; graph = new HashMap&amp;lt;&amp;gt;();&lt;br/&gt;        graph.put(&quot;A&quot;, Map.of(&quot;B&quot;, 1, &quot;C&quot;, 4));&lt;br/&gt;        graph.put(&quot;B&quot;, Map.of(&quot;A&quot;, 1, &quot;C&quot;, 2, &quot;D&quot;, 5));&lt;br/&gt;        graph.put(&quot;C&quot;, Map.of(&quot;A&quot;, 4, &quot;B&quot;, 2, &quot;D&quot;, 1));&lt;br/&gt;        graph.put(&quot;D&quot;, Map.of(&quot;B&quot;, 5, &quot;C&quot;, 1));&lt;br/&gt;&lt;br/&gt;        // Run Dijkstra&#39;s algorithm&lt;br/&gt;        Map&amp;lt;String, Integer&amp;gt; distances = dijkstra(graph, &quot;A&quot;);&lt;br/&gt;&lt;br/&gt;        // Print the shortest distances from the source node&lt;br/&gt;        for (Map.Entry&amp;lt;String, Integer&amp;gt; entry : distances.entrySet()) {&lt;br/&gt;            System.out.println(&quot;Distance from A to &quot; + entry.getKey() + &quot; is &quot; + entry.getValue());&lt;br/&gt;        }&lt;br/&gt;    }&lt;br/&gt;}&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="-1770" width="730" height="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m7aj5oLY5AbvG_hLqnwf-79" target="m7aj5oLY5AbvG_hLqnwf-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-79" value="Real Problems Example: Uber locations distance in maps" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-81" value="Visualise this code" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.482;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="m7aj5oLY5AbvG_hLqnwf-81" target="m7aj5oLY5AbvG_hLqnwf-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m7aj5oLY5AbvG_hLqnwf-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="m7aj5oLY5AbvG_hLqnwf-81" target="m7aj5oLY5AbvG_hLqnwf-81">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
