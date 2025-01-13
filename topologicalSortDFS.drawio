@@ -46,6 +46,35 @@
         <mxCell id="FRy0X0okpq2MEX7t8Adi-15" value="Valid results are&lt;div&gt;5 4 2 3 1 0&lt;/div&gt;&lt;div&gt;4 5 2 3 1 0&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="340" width="370" height="180" as="geometry" />
         </mxCell>
+        <mxCell id="FRy0X0okpq2MEX7t8Adi-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FRy0X0okpq2MEX7t8Adi-16" target="FRy0X0okpq2MEX7t8Adi-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FRy0X0okpq2MEX7t8Adi-16" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="510" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FRy0X0okpq2MEX7t8Adi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FRy0X0okpq2MEX7t8Adi-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRy0X0okpq2MEX7t8Adi-17" value="2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="520" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FRy0X0okpq2MEX7t8Adi-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FRy0X0okpq2MEX7t8Adi-17" target="FRy0X0okpq2MEX7t8Adi-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="530" as="sourcePoint" />
+            <mxPoint x="230" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRy0X0okpq2MEX7t8Adi-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FRy0X0okpq2MEX7t8Adi-18" target="FRy0X0okpq2MEX7t8Adi-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FRy0X0okpq2MEX7t8Adi-18" value="3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="620" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FRy0X0okpq2MEX7t8Adi-24" value="Not valid for Directed Cyclic Graph" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
