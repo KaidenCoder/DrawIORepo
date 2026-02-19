@@ -58,6 +58,18 @@
         <mxCell id="bfBTa-qsoGluNAxPhy7S-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Explaination of the answer" vertex="1">
           <mxGeometry height="60" width="230" x="850" y="500" as="geometry" />
         </mxCell>
+        <mxCell id="bfBTa-qsoGluNAxPhy7S-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Quiz sort by difficulty" vertex="1">
+          <mxGeometry height="30" width="60" x="1020" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bfBTa-qsoGluNAxPhy7S-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Include pagination client side/server side" vertex="1">
+          <mxGeometry height="25" width="159" x="1291" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bfBTa-qsoGluNAxPhy7S-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Also start a test for quiz" vertex="1">
+          <mxGeometry height="70" width="180" x="1270" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bfBTa-qsoGluNAxPhy7S-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Search can search questions" vertex="1">
+          <mxGeometry height="30" width="140" x="1260" y="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
